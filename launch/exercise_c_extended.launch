@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="turtlesim" type="turtlesim_node" name="turtlesim_1" respawn="false" />
+	<node pkg="rostopic" type="rostopic" name="rostopic" args="pub -r 1 /turtle1/cmd_vel geometry_msgs/Twist -- '[5.0, 0.0, 0.0]' '[0.0, 0.0, 2]'"/>
+</launch>

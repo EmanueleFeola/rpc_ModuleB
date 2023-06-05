@@ -1,0 +1,2 @@
+beginner_tutorials:eDO_description:learning_tf
+-DCATKIN_DEVEL_PREFIX=/home/emanuele/rpc_ws/devel -DCMAKE_INSTALL_PREFIX=/home/emanuele/rpc_ws/install -G Unix Makefiles
